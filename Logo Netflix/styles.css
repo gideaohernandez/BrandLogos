@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+}
+
+.netflix-logo {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: #e50914;
+}
+
+.netflix-logo .letter {
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.netflix-logo .letter.n {
+    color: #fff;
+    transform: scaleY(1.2) scaleX(1);
+    text-shadow: none;
+    background: linear-gradient(135deg, #e50914, #b81d24 50%, #1a1a1a 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
